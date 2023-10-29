@@ -4,6 +4,10 @@ An app that allows users to plan future tasks on a cross-axis board with draggab
 
 This project is in the inital stages, so there are many missing features and work is still being done.
 
+## Fonts
+
+The fonts were developed by the project maintainer and are licensed under the GPL v3.0 like the rest of the project.
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
