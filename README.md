@@ -1,18 +1,8 @@
-# create-svelte
+# Cross Axis (working title)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+An app that allows users to plan future tasks on a cross-axis board with draggable notes. The notes can collapse down so a number of them can fit on the board and can be edited and re-positioned by multiple users in a collaborative fashion.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This project is in the inital stages, so there are many missing features and work is still being done.
 
 ## Developing
 
