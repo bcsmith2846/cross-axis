@@ -16,11 +16,11 @@ interface SettingsInterface {
 export const Settings: Writable<SettingsInterface> = writable<SettingsInterface>({
     sidebarMenuItems: [
         {
-            path: "/",
-            text: "Home",
+            path: '',
+            text: 'Home',
         },
         {
-            path: '/board',
+            path: 'board',
             text: 'Planning Board'
         }
     ],
