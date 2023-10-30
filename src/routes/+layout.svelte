@@ -42,43 +42,41 @@
 	<style>
 		@font-face {
 			font-family: 'mazer';
-			src: url('/fonts/mazer-regular.woff2') format('woff2'),
-				url('/fonts/mazer-regular.ttf') format('ttf');
+			src: url('fonts/mazer-regular.woff2') format('woff2'),
+				url('fonts/mazer-regular.ttf') format('ttf');
 			font-weight: normal;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'mazer';
-			src: url('/fonts/mazer-bold.woff2') format('woff2'),
-				url('/fonts/mazer-bold.ttf') format('ttf');
+			src: url('fonts/mazer-bold.woff2') format('woff2'), url('fonts/mazer-bold.ttf') format('ttf');
 			font-weight: bold;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'mazer';
-			src: url('/fonts/mazer-italic.woff2') format('woff2'),
-				url('/fonts/mazer-italic.ttf') format('ttf');
+			src: url('fonts/mazer-italic.woff2') format('woff2'),
+				url('fonts/mazer-italic.ttf') format('ttf');
 			font-weight: normal;
 			font-style: italic;
 		}
 		@font-face {
 			font-family: 'mazer';
-			src: url('/fonts/mazer-book.woff2') format('woff2'),
-				url('/fonts/mazer-book.ttf') format('ttf');
+			src: url('fonts/mazer-book.woff2') format('woff2'), url('fonts/mazer-book.ttf') format('ttf');
 			font-weight: 500;
 			font-style: normal;
 		}
 		@font-face {
 			font-family: 'mazer';
-			src: url('/fonts/mazer-bolditalic.woff2') format('woff2'),
-				url('/fonts/mazer-bolditalic.ttf') format('ttf');
+			src: url('fonts/mazer-bolditalic.woff2') format('woff2'),
+				url('fonts/mazer-bolditalic.ttf') format('ttf');
 			font-weight: bold;
 			font-style: italic;
 		}
 		@font-face {
 			font-family: 'mazer';
-			src: url('/fonts/mazer-bookitalic.woff2') format('woff2'),
-				url('/fonts/mazer-bookitalic.ttf') format('ttf');
+			src: url('fonts/mazer-bookitalic.woff2') format('woff2'),
+				url('fonts/mazer-bookitalic.ttf') format('ttf');
 			font-weight: 500;
 			font-style: italic;
 		}
