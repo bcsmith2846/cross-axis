@@ -7,6 +7,8 @@
 	import { base } from '$app/paths';
 	import { dev } from '$app/environment';
 
+	console.log(base);
+
 	let selectedTheme: string;
 	let drawerCheckbox: HTMLInputElement;
 	let routes: Array<{ rel: string; name: string }>;
@@ -154,7 +156,7 @@
 		<div class="drawer-side">
 			<label for="drawer" aria-label="close sidebar" class="drawer-overlay" />
 			<ul class="menu text-lg p-4 w-80 min-h-full bg-base-200 text-base-content">
-				{#each $Settings.sidebarMenuItems as menuItem (menuItem.path)}
+				{#each $Settings.sidebarMenuItems as menuItem}
 					<a href={menuItem.path} on:click={doSidebarLink} class="link m-2"
 						><li>{menuItem.text}</li></a
 					>
