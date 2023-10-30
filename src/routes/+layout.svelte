@@ -4,14 +4,17 @@
 	import { Settings } from '$lib/store/settings';
 	import { onMount } from 'svelte';
 	import type { EventHandler } from 'svelte/elements';
+	import { base } from '$app/paths';
+	import { dev } from '$app/environment';
 
 	let selectedTheme: string;
 	let drawerCheckbox: HTMLInputElement;
 	let routes: Array<{ rel: string; name: string }>;
 
 	$: routes = [
-		{ rel: '/', name: 'home' },
+		{ rel: dev ? '/' : base, name: 'home' },
 		...$page.url.pathname
+			.substring(dev ? 0 : base.length)
 			.slice(1)
 			.split(/\//)
 			.map((i) => ({ rel: i, name: i }))

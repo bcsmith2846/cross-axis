@@ -1,5 +1,6 @@
 import { writable } from 'svelte/store';
 import type { Writable } from 'svelte/store';
+import { base } from '$app/paths';
 
 
 interface SidebarMenuItem {
@@ -16,11 +17,11 @@ interface SettingsInterface {
 export const Settings: Writable<SettingsInterface> = writable<SettingsInterface>({
     sidebarMenuItems: [
         {
-            path: '',
+            path: base,
             text: 'Home',
         },
         {
-            path: 'board',
+            path: base + '/board',
             text: 'Planning Board'
         }
     ],
